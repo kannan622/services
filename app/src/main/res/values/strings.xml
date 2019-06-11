@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Vanan Translate</string>
+    <string name="title_home">Translation</string>
+    <string name="title_login">Register / Login</string>
+    <string name="title_quote">Get Quote</string>
+    <string name="title_lang">Select Language</string>
+    <string name="contact">Contact Us</string>
+    <string name="title_dashboard">Services</string>
+    <string name="title_notifications">Settings</string>
+
+    <string name="title_expand">Expanded Text</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="already_text">Hi Jack, you are registered under <font fgcolor='#514bc5'>jack@gmail.com.</font> We will contact you soon!</string>
+    <string name="title_edit">Edit Profile</string>
+
+
+    <string name="connection_message">No Internet Connection</string>
+
+</resources>

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Vanan Services"
+            android:textColor="#666666"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/message"
+            android:layout_gravity="center"
+            android:layout_margin="25dp"
+            android:background="@color/colorPrimary"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:transitionName="open_mediaplayer"
+            card_view:cardCornerRadius="14dp"
+            card_view:cardElevation="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rel_one"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/rel_two"
+
+
+                    android:background="@drawable/new_bg"
+
+
+                    android:src="@drawable/translation_art_new" />
+
+
+                <RelativeLayout
+                    android:id="@+id/rel_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/translation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Translation"
+                        android:textColor="#666666"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/translation_caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/translation"
+                        android:text="100+ languages and dialects"
+                        android:textColor="@color/grey1"
+
+
+                        />
+
+
+                    <Button
+                        android:id="@+id/translation_button"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/button_border"
+                        android:text="Get Quote"
+                        android:textColor="#FFFFFF"
+                        android:textAllCaps="false"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+
+            android:background="@color/colorPrimary"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:transitionName="open_mediaplayer"
+            card_view:cardCornerRadius="14dp"
+            card_view:cardElevation="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rel_one1"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@+id/rel_two1"
+                    android:background="@drawable/new_bg"
+
+                    android:src="@drawable/transcription_art" />
+
+                <RelativeLayout
+                    android:id="@+id/rel_two1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/transcription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transcription"
+                        android:textColor="#666666"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/transcription_caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/transcription"
+                        android:text="100+ languages and dialects"
+                        android:textColor="@color/grey1"
+
+
+                        />
+
+                    <Button
+                        android:id="@+id/transcription_button"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/button_border"
+                        android:text="Get Quote"
+                        android:textColor="#FFFFFF"
+                        android:textAllCaps="false"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/card_view1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+
+            android:background="@color/colorPrimary"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:transitionName="open_mediaplayer"
+            card_view:cardCornerRadius="14dp"
+            card_view:cardElevation="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rel_one2"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/rel_two2"
+                    android:background="@drawable/new_bg"
+                    android:src="@drawable/voice_over_art" />
+
+                <RelativeLayout
+                    android:id="@+id/rel_two2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/voiceover"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Voiceover"
+                        android:textColor="#666666"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/voiceover_caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/voiceover"
+                        android:text="FInd the best voice talent"
+                        android:textColor="@color/grey1"
+
+
+                        />
+
+                    <Button
+                        android:id="@+id/voiceover_btn"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/button_border"
+                        android:text="Get Quote"
+                        android:textColor="#FFFFFF"
+                        android:textAllCaps="false"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view3"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/card_view2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+
+            android:background="@color/colorPrimary"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:transitionName="open_mediaplayer"
+            card_view:cardCornerRadius="14dp"
+            card_view:cardElevation="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rel_one3"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/rel_two3"
+                    android:background="@drawable/new_bg"
+
+                    android:src="@drawable/captioning_art" />
+
+                <RelativeLayout
+                    android:id="@+id/rel_two3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/captioning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Captioning"
+                        android:textColor="#666666"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/captioning_caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/captioning"
+                        android:text="100+ languages and dialects"
+                        android:textColor="@color/grey1"
+
+
+                        />
+
+                    <Button
+                        android:id="@+id/captioning_btn"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/button_border"
+
+                        android:text="Get Quote"
+                        android:textColor="#FFFFFF"
+                        android:textAllCaps="false"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view4"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/card_view3"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/colorPrimary"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:transitionName="open_mediaplayer"
+            card_view:cardCornerRadius="14dp"
+            card_view:cardElevation="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rel_one4"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/rel_two4"
+                    android:background="@drawable/new_bg"
+
+                    android:src="@drawable/typing_art" />
+
+                <RelativeLayout
+                    android:id="@+id/rel_two4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/typing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Typing"
+                        android:textColor="#666666"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/typing_caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/typing"
+                        android:text="Professional Typing and Typography"
+                        android:textColor="@color/grey1"
+
+
+                        />
+
+                    <Button
+                        android:id="@+id/typing_btn"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/button_border"
+
+                        android:text="Get Quote"
+                        android:textColor="#FFFFFF"
+                        android:textAllCaps="false"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view5"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/card_view4"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@color/colorPrimary"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:transitionName="open_mediaplayer"
+            card_view:cardCornerRadius="14dp"
+            card_view:cardElevation="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rel_one5"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/rel_two5"
+                    android:background="@drawable/new_bg"
+
+                    android:src="@drawable/subtitle_art" />
+
+                <RelativeLayout
+                    android:id="@+id/rel_two5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Subtitle"
+                        android:textColor="#666666"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/subtitle_caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/subtitle"
+                        android:text="100+ languages and dialects"
+                        android:textColor="@color/grey1"
+
+
+                        />
+
+                    <Button
+                        android:id="@+id/subtitle_btn"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/button_border"
+
+                        android:textAllCaps="false"
+                        android:text="Get Quote"
+                        android:textColor="#FFFFFF"
+
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/card_view5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_border"
+
+            android:text="Get"
+            android:textColor="#FFFFFF"
+
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+</ScrollView>

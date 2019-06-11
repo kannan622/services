@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:id="@+id/from_lang_rel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/flag_from"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="1dp"
+                android:src="@drawable/account"
+
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/rel_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@+id/flag_from"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/country_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+
+                    android:fontFamily="sans-serif"
+                    android:text="English (USA)"
+
+
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/grey1"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+                <CheckBox
+                    android:id="@+id/check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:buttonTint="@drawable/check_box"
+
+
+                    />
+
+
+            </RelativeLayout>
+
+            <!-- <TextView
+                 android:id="@+id/country_name"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginTop="8dp"
+                 android:layout_toRightOf="@+id/flag_from"
+                 android:fontFamily="sans-serif"
+                 android:text="English (USA)"
+
+
+                 android:padding="8dp"
+
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textColor="@color/grey1"
+                 android:textSize="13sp"
+                 android:textStyle="bold"
+
+
+                 />-->
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vanan_translate">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.vanan_translate.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/AppTheme.NoActionAndStatusBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.vanan_translate.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+
+        <activity
+            android:name="com.vanan_translate.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/AppTheme.NoActionBar"
+
+
+            android:windowSoftInputMode="adjustResize|stateHidden">
+
+        </activity>
+
+        <activity
+            android:name="com.vanan_translate.Already_registered"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionAndStatusBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+        </activity>
+
+        <activity
+            android:name="com.vanan_translate.Contactus"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionAndStatusBar">
+
+        </activity>
+        <activity
+            android:name="com.vanan_translate.Expand"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionAndStatusBar">
+
+        </activity>
+        <activity
+            android:name="com.vanan_translate.Edit_profile"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name="com.vanan_translate.GetQuote"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+
+        </activity>
+
+        <activity
+            android:name="com.vanan_translate.Language_list"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionAndStatusBar"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+
+        </activity>
+        <activity
+            android:name="com.vanan_translate.Social_media"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionAndStatusBar">
+
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="bbbd1565734a577d16a3e6f2290ec2e3280107ce" />
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
+    </application>
+
+</manifest>

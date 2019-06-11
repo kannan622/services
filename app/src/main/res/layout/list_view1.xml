@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+
+    android:layout_marginRight="15dp"
+
+
+    >
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/message"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+
+
+        android:background="@color/colorPrimary"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:transitionName="open_mediaplayer"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="3dp">
+
+
+        <ListView
+            android:id="@+id/mylistview1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:cacheColorHint="@android:color/transparent"
+            android:choiceMode="multipleChoice"
+
+            android:divider="@color/grey"
+            android:dividerHeight="1dp"
+
+            android:listSelector="@android:color/transparent"
+
+
+            ></ListView>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

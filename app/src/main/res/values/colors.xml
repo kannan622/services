@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="selectedtabcolor">#F1201F1F</color>
+
+    <color name="grey">#f2f2f2</color>
+    <color name="grey1">#a6a6a6</color>
+    <color name="grey_black">#666666</color>
+    <color name="purple">#514bc5</color>
+
+
+    <color name="blue">#0052cc</color>
+
+    <color name="purple_light">#F0EFFF</color>
+
+
+</resources>
